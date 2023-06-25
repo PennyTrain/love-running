@@ -13,6 +13,7 @@ body {
 }
 
 h1,
+
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -57,5 +58,15 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background-image: url('images\hero-image.png') no-repeat center center;
+    background: url('../images/hero-image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
+
+/* Look at your url path remember "." is to "go up a level" , yeah i tried that originally it didnt work so i copied the relative 
+path to see if that would work*
+
+CAn you start a live server bottom right
+i have already
+should i cancel it and restart/
