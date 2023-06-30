@@ -73,10 +73,13 @@ h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-#cover-text, #cover-text h2 {
-  color: #ffff;  
+
+#cover-text,
+#cover-text h2 {
+    color: #ffff;
 }
-#cover-text{
+
+#cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -101,27 +104,37 @@ h2 {
     }
 }
 
-#club-ethos{ 
+#club-ethos {
     height: 600px;
 }
+
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 
 }
+
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background: silver;
+
 }
+
 #center-about {
     width: 33%;
     margin: 0 auto;
     background: green;
 
 }
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
 .left-about-heading {
     width: 60%;
     float: right;
@@ -130,12 +143,24 @@ h2 {
     margin-bottom: 50px;
 
 }
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px;
-    
+
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
 /* Look at your url path remember "." is to "go up a level" , yeah i tried that originally it didnt work so i copied the relative 
 path to see if that would work*
 
