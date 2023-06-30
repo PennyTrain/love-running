@@ -108,7 +108,7 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background: blue;
+
 }
 #right-about {
     padding-top: 30px;
@@ -122,7 +122,20 @@ h2 {
     background: green;
 
 }
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 
+}
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+    
+}
 /* Look at your url path remember "." is to "go up a level" , yeah i tried that originally it didnt work so i copied the relative 
 path to see if that would work*
 
