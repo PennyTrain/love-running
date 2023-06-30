@@ -125,7 +125,7 @@ h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background: green;
+
 
 }
 
@@ -161,6 +161,30 @@ hr {
     text-align: right;
 }
 
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#circle-cover-bg {
+    background: url('../images/ethos-center-image.png'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    border-radius: 50%;
+    /*use square image*/
+
+}
 /* Look at your url path remember "." is to "go up a level" , yeah i tried that originally it didnt work so i copied the relative 
 path to see if that would work*
 
