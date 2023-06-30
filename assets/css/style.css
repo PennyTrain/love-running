@@ -185,6 +185,14 @@ hr {
     /*use square image*/
 
 }
+#times {
+    background-image: url('../images/dublin-city.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
 /* Look at your url path remember "." is to "go up a level" , yeah i tried that originally it didnt work so i copied the relative 
 path to see if that would work*
 
