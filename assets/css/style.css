@@ -262,6 +262,16 @@ display: inline;
         display: none;
     }
 }
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
 
 /* Look at your url path remember "." is to "go up a level" , yeah i tried that originally it didnt work so i copied the relative 
 path to see if that would work*
