@@ -219,10 +219,10 @@ footer {
 display: inline;
 }
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
 }
 
 /* Look at your url path remember "." is to "go up a level" , yeah i tried that originally it didnt work so i copied the relative 
