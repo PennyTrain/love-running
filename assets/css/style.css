@@ -224,6 +224,17 @@ display: inline;
         padding: 5%;
         color: #3a3a3a;
 }
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count:4;
+    column-gap: 0;
+
+}
+#photos > img {
+    width: 100%;
+    
+}
 
 /* Look at your url path remember "." is to "go up a level" , yeah i tried that originally it didnt work so i copied the relative 
 path to see if that would work*
@@ -231,3 +242,4 @@ path to see if that would work*
 CAn you start a live server bottom right
 i have already
 should i cancel it and restart/
+
